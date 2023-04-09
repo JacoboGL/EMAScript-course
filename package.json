@@ -1,0 +1,15 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "Project files for the ECMASCript Course from Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "emascript"
+  ],
+  "author": "Jacobo GL <jaco401@hotmail.com>",
+  "license": "MIT"
+}
