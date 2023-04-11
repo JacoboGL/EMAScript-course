@@ -5,3 +5,13 @@ const fnAsync = () => {
             : reject(new Error("Error!"));
     })
 }
+
+const anotherFn = async () => {
+    const something = await fnAsync();
+    console.log(something);
+    console.log("Promise fullfiled");
+}
+
+console.log("Before promise");
+anotherFn();
+console.log("After calling promise");
