@@ -11,3 +11,8 @@ const anotherFunction = () => {
 anotherFunction()
     .then(response => console.log(response))
     .catch(err => console.log(err.message));
+
+let variab = "Mijo";
+let variaa = "Mati";
+
+console.log("Mati \n", "Mijoo!");
